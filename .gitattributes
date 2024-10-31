@@ -1,0 +1,5 @@
+hw1_language/ckpts/model.safetensors filter=lfs diff=lfs merge=lfs -text
+hw2_image/ckpts/unet/diffusion_pytorch_model.safetensors filter=lfs diff=lfs merge=lfs -text
+final/DiffuseVAE/ckpts/cifar_w4a8_ckpt.pth filter=lfs diff=lfs merge=lfs -text
+final/DiffuseVAE/cherrypicked/** filter=lfs diff=lfs merge=lfs -text
+final/DiffuseVAE/replication/** filter=lfs diff=lfs merge=lfs -text
